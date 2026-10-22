@@ -1,0 +1,33 @@
+# ---- Secrets (never commit these) ----
+.env
+.streamlit/secrets.toml
+
+# ---- Virtual environment ----
+.venv/
+venv/
+
+# ---- Python cache ----
+__pycache__/
+*.py[cod]
+
+# ---- Generated data ----
+vector_db/
+downloads/
+downloades/
+uploads/
+
+# ---- Audio and video files ----
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.mkv
+*.webm
+*.ogg
+*.flac
+
+# ---- Editor and OS files ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

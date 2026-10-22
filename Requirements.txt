@@ -1,0 +1,33 @@
+# ---- UI ----
+streamlit
+
+# ---- Environment / config ----
+python-dotenv
+
+# ---- Audio download & processing ----
+yt-dlp
+ffmpeg-python            # also install the ffmpeg binary on your system
+
+# ---- Local speech-to-text (Whisper) ----
+openai-whisper
+torch
+
+# ---- LangChain (LCEL) ----
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# ---- LLM providers (free APIs from your .env) ----
+langchain-groq           # GROQ_API_KEY
+langchain-mistralai      # MISTRAL_API_KEY
+sarvamai                 # SARVAM_API_KEY (Hindi -> English translation)
+
+# ---- RAG: embeddings + vector store ----
+langchain-huggingface
+sentence-transformers
+chromadb
+langchain-chroma
+
+# ---- Export (PDF / TXT) ----
+fpdf2
