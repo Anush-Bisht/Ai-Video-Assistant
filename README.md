@@ -2,7 +2,7 @@
 
 Turn a meeting recording into a summary, action items, key decisions and open questions, then chat with the transcript. Built with Python, LangChain (LCEL), Whisper, ChromaDB and Streamlit.
 
-<!-- Add a screenshot of the app: ![App screenshot](docs/screenshot.png) -->
+![App screenshot](docs/screenshot.png)
 
 ## Features
 
