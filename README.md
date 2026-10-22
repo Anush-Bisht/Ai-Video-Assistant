@@ -144,7 +144,3 @@ Memory on the free tier is limited, so use the Groq-hosted Whisper (`WHISPER_BAC
 | `model_not_found` from Groq | Set `GROQ_MODEL` to a model listed in the Groq docs |
 | `python-dotenv could not parse statement` | A line in `.env` is not in `NAME=value` form; comments need a `#` |
 | Rate limit (429) errors | Wait a minute, use a smaller model, or lower the concurrency |
-
-## License
-
-Add a license of your choice, for example MIT.
